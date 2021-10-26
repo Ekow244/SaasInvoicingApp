@@ -420,7 +420,9 @@ def companySettings(request):
 
 
 
-
+def pricing(request):
+    context = {}
+    return render(request, 'invoice/pricing.html', context)
 
 
 
