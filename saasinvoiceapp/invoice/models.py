@@ -203,6 +203,8 @@ class Settings(models.Model):
     date_created = models.DateTimeField(blank=True, null=True)
     last_updated = models.DateTimeField(blank=True, null=True)
 
+    class Meta:
+            verbose_name_plural = "Settings"
 
     def __str__(self):
         return '{} {} {}'.format(self.clientName, self.region, self.uniqueId)
