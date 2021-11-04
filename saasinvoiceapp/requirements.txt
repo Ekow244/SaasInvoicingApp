@@ -1,0 +1,10 @@
+Django==3.2.8
+gunicorn==19.6.0
+django-crispy-forms>=1.9.0 
+psycopg2>=2.9.1
+Pillow>=7.0.0
+uuid>=1.30
+requests>=2.24.0
+pdfkit>=0.6.1
+
+
